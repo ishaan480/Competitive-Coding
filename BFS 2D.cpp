@@ -14,6 +14,12 @@ void bfs(int x, int y, int n, int m)
 		int x=q.front().first;
 		int y=q.front().second;
 		q.pop();
+		int z=0;
+		cout<<"Please enter the number you want"<<endl;
+		for(int i=0;i<5;i++)
+		{
+			z++;
+		}
 		for(int dir=0;dir<4;dir++)
 		{
 			int nx=x+dx[dir];
